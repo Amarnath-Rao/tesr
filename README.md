@@ -73,6 +73,36 @@ You can work through the notebooks locally or in your browser. Pick the installa
 
 ### Cloud Options
 
+### Run on [Codeanywhere](https://codeanywhere.com)
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/Amarnath-Rao/python-data-viz-workshop)
+
+ ![location of code button in GitHub](./media/codeanywhere.png)
+
+[Codeanywhere](https://codeanywhere.com) provides a pre-configured development environment accessible right from your browser. You will need a CodeAnywhere account (free plans are typically sufficient for short workshops, but verify your specific resource requirements). Keep in mind that it may take some time to set up and provision your environment initially.
+
+1. **Sign in to CodeAnywhere.** If you do not already have an account, you can create one [here](https://app.codeanywhere.com/).
+
+2. **Create a New Workspace.** From your CodeAnywhere dashboard, choose **New Container** or **New Workspace** (terminology may vary depending on your plan/interface). When prompted, select **Git Repository** and enter the URL to the repository you want to work with. Configure any other details (e.g., container size, runtime) based on workshop requirements.
+
+   **Wait for the Environment to Build**  
+   CodeAnywhere will clone the repository and build the container for you.  
+   This can take a few minutes depending on the size of the repository and the container configuration.
+
+---
+
+### Managing Your CodeAnywhere Environment
+
+#### Stopping and Resuming
+Just like any cloud-based environment, if you want to pause usage (and avoid consuming hours on your plan), you can stop your workspace from your CodeAnywhere dashboard. You can later resume exactly where you left off. This saves you from building the environment from scratch each time.
+
+#### Saving Your Changes
+If you want to preserve any code changes and commit them back to GitHub (or another Git provider), make sure you have connected your GitHub account under **Integrations** (in CodeAnywhere’s settings).  
+Alternatively, you can fork the workshop repository on GitHub first, then clone your fork into CodeAnywhere. This way, you can commit and push changes to your own repository.
+
+> **Tip:** It’s recommended to create (and build) your CodeAnywhere workspace in advance of the workshop. When the session starts, simply resume the environment, and you’ll be ready to go.
+
+
 #### GitHub Codespaces
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Amarnath-Rao/python-data-viz-workshop)
